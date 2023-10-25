@@ -39,6 +39,10 @@ wget https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.10.7/rabbi
 ```
 sudo dpkg -i rabbitmq-server_3.10.7-1_all.deb
 ```
+```
+sudo apt --fix-broken install -y
+```
+
 ### Passo 4 – Iniciar o RabbitMQ Server
 
 ```
